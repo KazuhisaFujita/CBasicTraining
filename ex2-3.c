@@ -1,17 +1,19 @@
-/*リスト2.3*/
+/*リスト2.2*/
 #include <stdio.h>
 
 int main(void)
 {
-    int score = 70;
-    
-    if(score >= 80){
-        printf("優です．\n");
-    }else if(score >= 60){
-        printf("可です．\n");
+
+    double x = -1;
+    double abs;
+
+    if(x >= 0){
+        abs = x;
     }else{
-        printf("不可です．\n");
+        abs = -x;
     }
+
+    printf("%fの絶対値は%fである．\n", x, abs);
 
     return(0);
 }
