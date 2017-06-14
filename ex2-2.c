@@ -1,4 +1,4 @@
-/*リスト2.2*/
+/*リスト2.1*/
 #include <stdio.h>
 
 int main(void)
@@ -9,7 +9,8 @@ int main(void)
 
     if(x >= 0){
         abs = x;
-    }else{
+    }
+    if(x < 0){
         abs = -x;
     }
 
