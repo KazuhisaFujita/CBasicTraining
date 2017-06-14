@@ -1,11 +1,14 @@
-/*リスト2.2*/
+/*リスト2.3*/
 #include <stdio.h>
 
 int main(void)
 {
 
-    double x = -1;
+    double x;
     double abs;
+
+    printf("数値を入力してください．");
+    scanf("%lf", &x);
 
     if(x >= 0){
         abs = x;
