@@ -1,10 +1,14 @@
-/*リスト2.3*/
+/*リスト2.4*/
 #include <stdio.h>
 
 int main(void)
 {
-    int score = 70;
-    
+    int score;
+
+    printf("点数を入力してください．");
+    scanf("%d", &score);
+
+
     if(score >= 80){
         printf("優です．\n");
     }else if(score >= 60){
