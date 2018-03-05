@@ -27,9 +27,9 @@
 13	    int player = 0;
 14	    int enemy = 0;
 15
-16		printf("自分のじゃんけんの手を入力してください．\n");
+16      printf("自分のじゃんけんの手を入力してください．\n");
 17	    scanf("%d", &player);
-18		printf("相手のじゃんけんの手を入力してください．\n");
+18      printf("相手のじゃんけんの手を入力してください．\n");
 19	    scanf("%d", &enemy);
 20
 21	    if(player == enemy){
